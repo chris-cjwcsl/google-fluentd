@@ -7,6 +7,8 @@ gem 'berkshelf', '~> 3.0'
 gem 'omnibus', :github => 'chef/omnibus' #, :branch => '8.0.1'
 gem 'omnibus-software', :github => 'chef/omnibus-software' #, :branch => 'omnibus/3.2-stable'
 
+gem 'ohai', '>17.7'
+
 # Use open_uri_redirections to allow HTTPS -> HTTP redirections in omnibus
 gem 'open_uri_redirections', '0.2.1'
 
