@@ -4,8 +4,8 @@ source 'https://rubygems.org'
 gem 'berkshelf', '~> 3.0'
 
 # Install omnibus software
-gem 'omnibus', :github => 'chef/omnibus' #, :branch => '8.0.1'
-gem 'omnibus-software', :github => 'chef/omnibus-software' #, :branch => 'omnibus/3.2-stable'
+gem 'omnibus', :github => 'chef/omnibus'
+gem 'omnibus-software', :github => 'chef/omnibus-software'
 
 gem 'ohai', '>17.7'
 gem 'chef-cleanroom', '1.0.1'
