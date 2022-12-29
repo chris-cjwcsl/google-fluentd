@@ -7,6 +7,8 @@ gem 'berkshelf', '~> 3.0'
 gem 'omnibus', :github => 'chef/omnibus'
 gem 'omnibus-software', :github => 'chef/omnibus-software'
 
+gem 'kubeclient', '4.10.1'
+
 gem 'ohai', '>17.7'
 gem 'chef-cleanroom', '1.0.1'
 
