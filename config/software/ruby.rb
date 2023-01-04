@@ -32,7 +32,7 @@ license_file "LEGAL"
 #   config/software/td-agent-cleanup.rb
 #   config/software/td-agent-files.rb
 #   config/software/td-agent-ui.rb
-default_version "2.7.6"
+default_version "3.1.2"
 
 fips_enabled = (project.overrides[:fips] && project.overrides[:fips][:enabled]) || false
 
@@ -50,6 +50,8 @@ dependency "libyaml"
 dependency "libiconv"
 
 # The SHA256 checksums below are for the *.tar.gz packages from https://www.ruby-lang.org/en/downloads/releases.
+version("3.1.2")      { source sha256: "61843112389f02b735428b53bb64cf988ad9fb81858b8248e22e57336f24a83e" }
+
 version("2.7.6")      { source sha256: "e7203b0cc09442ed2c08936d483f8ac140ec1c72e37bb5c401646b7866cb5d10" }
 
 version("2.6.10")     { source sha256: "0dc609f263d49c4176d5725deefc337273676395985b5e017789373e8cadf16e" }
